@@ -8,6 +8,7 @@ TXT_RESET='\e[0m'
 export HISTFILESIZE=10000000
 
 # Alises
+alias ls='ls -alG'
 alias c='clear'
 alias gbc='git checkout -b'
 alias ga='git add'
