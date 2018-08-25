@@ -11,6 +11,9 @@
 
 `brew install thefuck node`
  
+# Python Setup
+
+1. `pip install virtualenvwrapper`
 
 # Repo Related Setup
 
