@@ -7,9 +7,10 @@
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-2. Install thefuck (which installs Python)
+2. Install All the things - thefuck (which installs Python), node
 
-`brew install thefuck`
+`brew install thefuck node`
+ 
 
 # Repo Related Setup
 
