@@ -8,6 +8,8 @@ TXT_RESET='\e[0m'
 export HISTFILESIZE=10000000
 
 # Alises
+alias python='python3'
+alias pop='pip3'
 alias ls='ls -alG'
 alias c='clear'
 alias gbc='git checkout -b'
