@@ -10,10 +10,8 @@
 2. Install All the things - thefuck (which installs Python), node
 
 `brew install thefuck node`
- 
-# Python Setup
 
-1. `pip install virtualenvwrapper`
+3. Install [Fira Code](https://github.com/tonsky/FiraCode) font.
 
 # Repo Related Setup
 
