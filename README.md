@@ -7,11 +7,13 @@
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-2. Install All the things - thefuck (which installs Python), node
+2. Install Python and venv - [Good tutorial](http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html)
+
+3. Install All the things - thefuck (which installs Python), node
 
 `brew install thefuck node`
 
-3. Install [Fira Code](https://github.com/tonsky/FiraCode) font.
+4. Install [Fira Code](https://github.com/tonsky/FiraCode) font.
 
 # Repo Related Setup
 
