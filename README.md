@@ -18,9 +18,9 @@
 # Repo Related Setup
 
 1. Clone Repo
-2. symlink `.bash_profile`
+2. symlink `.zshrc`
 
-`ln -s ~/.dotfiles/bash/.bash_profile ~/.bash_profile; source ~/.bash_profile`
+`ln -s ~/.dotfiles/zshrc/.zshrc ~/.zshrc; source ~/.zshrc`
 
 3. Link iterm2 to preferences. Navigate `Preferences -> General`
 

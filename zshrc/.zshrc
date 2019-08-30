@@ -36,6 +36,5 @@ print_before_the_prompt () {
     printf "\n${TXT_PURPLE}%s ${TXT_CYAN}%s ${TXT_GREEN}%s\n" "$USER" "$PWD" $(parse_git_branch)
 }
  
-PROMPT_COMMAND=print_before_the_prompt
-PS1="${TXT_PURPLE}(\!) >> ${TXT_RESET}"
+PS1=">> "
 
