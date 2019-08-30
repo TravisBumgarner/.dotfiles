@@ -28,13 +28,14 @@ alias rebash='source ~/.bash_profile'
 alias recode='code ~/.bash_profile' 
 eval $(thefuck --alias oops)
 
-parse_git_branch() {
-	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
 
-print_before_the_prompt () {
-    printf "\n${TXT_PURPLE}%s ${TXT_CYAN}%s ${TXT_GREEN}%s\n" "$USER" "$PWD" $(parse_git_branch)
-}
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats 'on branch %b'
  
-PS1=">> "
+# Set up the prompt (with git branch name)
+setopt PROMPT_SUBST
+PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
 
