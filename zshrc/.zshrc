@@ -100,17 +100,13 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Brew
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$PATH:$HOME/.poetry/bin
 
 # Colors
 TXT_CYAN='\e[0;36m'
 TXT_PURPLE='\e[0;35m'
 TXT_GREEN='\e[0;32m'
 TXT_RESET='\e[0m'
-
-# VirtualEnvWrapper
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
 
 # Constants
 export HISTFILESIZE=10000000
@@ -127,7 +123,6 @@ alias gp='git push'
 alias gs='git status'
 alias rebash='source ~/.bash_profile'
 alias recode='code ~/.bash_profile' 
-eval $(thefuck --alias oops)
 
 # Load version control information
 autoload -Uz vcs_info
